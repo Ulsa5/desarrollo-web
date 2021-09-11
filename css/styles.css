@@ -23,6 +23,14 @@ header h1 {
     box-shadow: 0px 10px 10px black;
 }
 
+.cuadricula-2-columnas {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 3fr;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px black;
+}
+
 .cuadricula-hijo {
     border: .1rem solid rgba(255, 255, 255, .8);
     border-radius: .3rem;
@@ -52,7 +60,7 @@ a {
     outline: none;
     text-decoration: none;
     display: inline-block;
-    width: 20%;
+    width: auto;
     margin-right: 0.625%;
     text-align: center;
     line-height: 3;
@@ -93,8 +101,8 @@ h4 {
     text-align: center;
     box-shadow: 0px 10px 10px black;
     padding: auto;
-    margin-right: 115px;
-    margin-left: 115px;
+    margin-right: auto;
+    margin-left: auto;
     border: auto;
 }
 
