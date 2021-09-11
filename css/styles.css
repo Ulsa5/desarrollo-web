@@ -31,6 +31,14 @@ header h1 {
     box-shadow: 0px 10px 10px black;
 }
 
+.cuadricula-2-columnas-dentro-de-columna {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 3fr;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px black;
+}
+
 .cuadricula-hijo {
     border: .1rem solid rgba(255, 255, 255, .8);
     border-radius: .3rem;
@@ -69,6 +77,7 @@ a {
     background-color: #0a2739;
     border-radius: 0.5rem;
     box-shadow: 0px 10px 10px black;
+    overflow: hidden;
 }
 
 a:link,
@@ -120,15 +129,6 @@ h4 {
     grid-template-columns: 1fr;
 }
 
-@media (max-width:600px) {
-    .row-2-cols {
-        grid-template-columns: 1fr;
-    }
-    nav ul li {
-        list-style-type: disc;
-    }
-}
-
 .relleno {
     background-color: black;
     color: black;
@@ -143,30 +143,49 @@ nav ul li {
     display: inline;
 }
 
-nav a {
-    outline: none;
-    text-decoration: none;
-    display: inline-block;
-    width: 10%;
-    margin-right: 0.625%;
-    text-align: center;
-    line-height: 3;
-    color: rgba(255, 255, 255, .6);
-    border: solid 1px;
-    background-color: #0a2739;
-    border-radius: 0.5rem;
-    overflow: hidden;
-}
-
 nav {
     text-align: center;
 }
 
 header div {
     box-shadow: 0px 10px 10px black;
+    width: 100%;
 }
 
 .pagina-activa {
     background: orange;
     color: black;
+}
+
+@media (max-width:932px) {
+    .row-2-cols {
+        grid-template-columns: 1fr 1fr;
+    }
+    .cuadricula-2-columnas-dentro-de-columna {
+        grid-template-columns: 1fr;
+    }
+    iframe {
+        width: auto;
+    }
+}
+
+@media (max-width:768px) {
+    .row-2-cols {
+        grid-template-columns: 1fr 1fr;
+    }
+    .cuadricula-2-columnas {
+        grid-template-columns: 1fr;
+    }
+    iframe {
+        width: auto;
+    }
+}
+
+@media (max-width:700px) {
+    .row-2-cols {
+        grid-template-columns: 1fr;
+    }
+    .cuadricula-2-columnas {
+        grid-template-columns: 1fr;
+    }
 }
