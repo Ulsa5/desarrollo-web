@@ -139,12 +139,16 @@ footer p {
     text-align: center;
 }
 
-nav ul li {
-    display: inline;
-}
-
 nav {
     text-align: center;
+}
+
+.li-vertical {
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
 }
 
 header div {
@@ -155,6 +159,16 @@ header div {
 .pagina-activa {
     background: orange;
     color: black;
+}
+
+.limpio {
+    display: block;
+    border: none;
+    box-shadow: none;
+    margin: 0.5px;
+    padding: 1px;
+    height: 100%;
+    line-height: 0.1rem;
 }
 
 @media (max-width:932px) {

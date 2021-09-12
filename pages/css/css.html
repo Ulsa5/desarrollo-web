@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Web UMG - 2021</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <script src="../../scripts/scripts.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="row-2-cols">
+            <img src="../../images/umg-cuilapa.png" alt="" style="background-color: white;">
+            <h1>Desarrollo Web 2021</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../../index.html">INICIO</a></li>
+                <li>
+                    <a class="pagina-activa" href="../../pages/temas.html">TEMAS DEL CURSO</a></li>
+                <li>
+                    <a href="#">EJERCICIOS</a></li>
+                <li>
+                    <a href="#">CONTACTO</a></li>
+                <li>
+                    <a href="#">ADMINISTRACIÓN</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+    </header>
+
+    <main>
+        <div class="cuadricula-2-columnas">
+            <div class="cuadricula-hijo" style="padding-bottom: 5rem;">
+                <h4>CONTENIDO</h4>
+                <nav>
+                    <ul>
+                        <li class="li-vertical">
+                            <a id="linkCss" class="pagina-activa" style="width: 100%;" onclick="cambiarFrame('../css/tema-css.html','linkCss');resetearlinksActivos('linkFoundation','linkBootstrap','linkSaas','linkLess');">CSS</a>
+                        </li>
+
+                        <li class="li-vertical">
+                            <a id="linkFoundation" class="" style="width: 100%;" onclick="cambiarFrame('../css/tema-foundation.html','linkFoundation');resetearlinksActivos('linkCss','linkBootstrap','linkSaas','linkLess');">FOUNDATION</a>
+                        </li>
+
+                        <li class="li-vertical">
+                            <a id="linkBootstrap" class="" style="width: 100%;" onclick="cambiarFrame('../css/tema-bootstrap.html','linkBootstrap');resetearlinksActivos('linkCss','linkFoundation','linkSaas','linkLess');">BOOTSTRAP</a>
+                        </li>
+                        <li class="li-vertical">
+                            <a id="linkSaas" class="" style="width: 100%;" onclick="cambiarFrame('../css/tema-saas.html','linkSaas');resetearlinksActivos('linkCss','linkFoundation','linkBootstrap','linkLess');">SAAS</a>
+                        </li>
+                        <li class="li-vertical">
+                            <a id="linkLess" class="" style="width: 100%;" onclick="cambiarFrame('../css/tema-less.html','linkLess');resetearlinksActivos('linkCss','linkFoundation','linkBootstrap','linkSaas');">LESS</a>
+                        </li>
+                        <br><br>
+                        <li class="li-vertical">
+                            <a style="width: 100%;" href="../temas.html">← VOLVER</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="cuadricula-hijo">
+                <iframe id="iframe-contenedor" src="../css/tema-css.html" frameborder="0" height="100%" width="100%"></iframe>
+            </div>
+        </div>
+    </main>
+    <br>
+    <hr>
+    <hr>
+    <footer>
+        <p>Copyright &copy; Saúl Escobar 2021</p>
+        <p>Desarrollo Web 2021</p>
+    </footer>
+
+</body>
+
+</html>
+
+</html>
