@@ -1,6 +1,6 @@
 
 
-https://openwebinars.net/blog/que-es-css3/
+https://openwebinars.net/blog/que-es-3/
 
 https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript
 
@@ -15,3 +15,6 @@ https://www.mediaroomsolutions.es/blog/tendencias-desarrollo-web-2019/
 
 https://www.youtube.com/embed/nl2rusv9i8Q?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
 (video desarrollo web)
+
+https://www.glajumedia.com/top-frameworks-de-desarrollo-web-en-el-2020/
+(frameworks)
